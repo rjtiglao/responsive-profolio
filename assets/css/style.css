@@ -142,7 +142,20 @@ a:active {
 .img-container{
     display: flex;
     flex-direction: row;
+    margin-left: -25%;
 
+}
+.portfolio1 div{
+    margin-bottom: 375%;
+}
+
+.portfolio2 div{
+    margin-bottom: 250%;
+    
+}
+
+.sign{
+    line-height: 0%;
 }
 
 .fit-img img{
@@ -183,9 +196,28 @@ a:active {
         overflow: auto;
     }
 
+    .box2{
+        margin-left: -10%;
+    }
+
     footer{
         margin-top: 2px;
-        padding: 8%; 
+        padding: 10%; 
         margin-bottom: 20px;
     }
+
+    .form{
+        max-width: 768px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 265px){
+
+    .form{
+        width: 200px;
+    }
+
 }
