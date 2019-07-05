@@ -1,1 +1,1 @@
-# responsive-profolio
+# rj-portfolio
