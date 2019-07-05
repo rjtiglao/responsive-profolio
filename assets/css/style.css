@@ -160,3 +160,32 @@ a:active {
     margin-top: 15%;
     
 }
+
+@media screen and (max-width: 1200px){
+
+    .main{
+        width: 150%;
+        overflow: auto;
+        margin-left: -25%;
+
+    }
+
+    footer{
+        margin-top: 2px;
+        padding: 8%; 
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .main{
+        width: 768;
+        overflow: auto;
+    }
+
+    footer{
+        margin-top: 2px;
+        padding: 8%; 
+        margin-bottom: 20px;
+    }
+}
